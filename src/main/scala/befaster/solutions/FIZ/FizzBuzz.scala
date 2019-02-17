@@ -9,8 +9,3 @@ object FizzBuzz {
     else if (number % 5 == 0) "buzz"
     else number.toString
 }
-
-
-
-
-
