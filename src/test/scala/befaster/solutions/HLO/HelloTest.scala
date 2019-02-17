@@ -10,6 +10,3 @@ class HelloTest  extends FlatSpec with Matchers {
   }
 
 }
-
-
-
