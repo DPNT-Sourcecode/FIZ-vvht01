@@ -16,5 +16,10 @@ class FizzBuzzTest  extends FlatSpec with Matchers {
     FizzBuzz.fizzBuzz(25) shouldBe "buzz"
   }
 
+  it should "retrun 'fizz buzz' when given number is 15" in {
+    FizzBuzz.fizzBuzz(15) shouldBe "fizz buzz"
+  }
+
 }
+
 
