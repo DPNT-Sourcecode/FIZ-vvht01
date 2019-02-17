@@ -6,9 +6,10 @@ import org.scalatest.{FlatSpec, Matchers}
 class HelloTest  extends FlatSpec with Matchers {
 
   it should "test hello world" in {
-    Hello.hello("anjan") shouldBe "Hello, World!"
+    Hello.hello("anjan") shouldBe "Hello, anjan!"
   }
 
 }
+
 
 
