@@ -30,4 +30,3 @@ class FizzBuzzTest  extends FlatSpec with Matchers {
   }
 
 }
-
