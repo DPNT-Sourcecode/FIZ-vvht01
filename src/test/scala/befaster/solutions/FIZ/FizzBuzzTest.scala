@@ -8,6 +8,11 @@ class FizzBuzzTest  extends FlatSpec with Matchers {
     FizzBuzz.fizzBuzz(9) shouldBe "fizz"
   }
 
+  it should "return 'fizz' when given number has 3" in {
+    FizzBuzz.fizzBuzz(3) shouldBe "fizz"
+  }
+
+
   it should "return 13 when given number is 13" in {
     FizzBuzz.fizzBuzz(13) shouldBe "13"
   }
@@ -25,3 +30,4 @@ class FizzBuzzTest  extends FlatSpec with Matchers {
   }
 
 }
+
