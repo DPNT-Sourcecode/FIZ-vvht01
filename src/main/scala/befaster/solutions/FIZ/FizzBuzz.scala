@@ -5,8 +5,8 @@ import befaster.runner.SolutionNotImplementedException
 object FizzBuzz {
   def fizzBuzz(number: Int): String = {
 
-    val pattern3 = "[3-3]"
-    val pattern5 = "[5-5]"
+    val pattern3 = "[3]"
+    val pattern5 = "[5]"
 
     if (number % 3 == 0 && number % 5 == 0) "fizz buzz"
     else if (number % 3 == 0 || pattern3.matches(number.toString) == true) "fizz"
@@ -15,5 +15,6 @@ object FizzBuzz {
   }
 
 }
+
 
 
