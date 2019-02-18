@@ -21,6 +21,11 @@ class FizzBuzzTest  extends FlatSpec with Matchers {
     FizzBuzz.fizzBuzz(25) shouldBe "buzz"
   }
 
+  it should "return 'buzz' when given number is 5" in {
+    FizzBuzz.fizzBuzz(5) shouldBe "buzz"
+  }
+
+
   it should "return 'fizz buzz' when given number is 15" in {
     FizzBuzz.fizzBuzz(15) shouldBe "fizz buzz"
   }
@@ -30,3 +35,4 @@ class FizzBuzzTest  extends FlatSpec with Matchers {
   }
 
 }
+
